@@ -2,13 +2,11 @@ body {
 	width: 980px;
 	margin: auto;
 	font-family: sans-serif;
+  font-size: 15px;
 }
 #header {
 	padding-top: 100px;
 	text-align: center;
-	font-size: 68px;
-	font-weight: bold;
-	letter-spacing: 10px;
 }
 #header:link {
   color: black;
@@ -19,7 +17,34 @@ body {
 .title {
   color: black;
   text-decoration: none;
+  font-size: 68px;
+	font-weight: bold;
+	letter-spacing: 10px;
 }
 .title:hover {
+  color: grey;
+}
+nav {
+  padding-top: 85px;
+  padding-left: 30px;
+}
+.navigation {
+  font-size: 13px;
+  list-style-type: none;
+  display: inline;
+  padding-right: 30px;
+}
+.current {
+  text-decoration: none;
+  color: grey;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.current:hover {
+  color: black;
+}
+.link:hover {
   color: grey;
 }
