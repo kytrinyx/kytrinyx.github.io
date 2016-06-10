@@ -77,9 +77,14 @@ p {
 .web-links {
   color: black;
   font-weight: 400;
+  text-decoration: underline;
+}
+#sign-up-button {
+  text-align: center;
 }
 footer {
-  padding-top: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 #copyright {
   text-align: center;
