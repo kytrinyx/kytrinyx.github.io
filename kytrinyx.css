@@ -48,6 +48,12 @@ nav {
 .link:hover {
   color: grey;
 }
+#tableContaier {
+  display: table;
+}
+#tableRow {
+  display: table-row;
+}
 #content {
   padding-left: 245px;
   padding-right: 245px;
@@ -71,4 +77,12 @@ p {
 .web-links {
   color: black;
   font-weight: 400;
+}
+footer {
+  padding-top: 70px;
+}
+#copyright {
+  text-align: center;
+  font-size: 13px;
+  line-height: 0px;
 }
