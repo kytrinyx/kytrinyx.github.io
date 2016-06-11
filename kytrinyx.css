@@ -6,7 +6,7 @@ body {
 #header {
 		padding-top: 100px;
     padding-bottom: 100px;
-	text-align: center;
+  	text-align: center;
 }
 #header:link {
   color: black;
@@ -82,6 +82,13 @@ p {
 #sign-up-button {
   text-align: center;
 }
+.image-text {
+  font-size: 13px;
+  padding-top: 30px;
+  font-weight: 300;
+  color: #333333;
+  line-height: 25px;
+}
 footer {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -90,4 +97,7 @@ footer {
   text-align: center;
   font-size: 13px;
   line-height: 0px;
+}
+#exercism-picture {
+  width: 490px;
 }
