@@ -65,6 +65,15 @@ h2 {
   font-weight: bold;
   padding-bottom: 30px;
 }
+h3 {
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-bottom: 20px;
+  float: right;
+  width: 326.67px;
+
+}
 p {
   padding-bottom: 30px;
 }
@@ -88,6 +97,28 @@ p {
   font-weight: 300;
   color: #333333;
   line-height: 25px;
+}
+.video-text {
+  font-size: 13px;
+  font-weight: 300;
+  color: #333333;
+  line-height: 20px;
+  float: right;
+  width: 326.67px;
+  padding-bottom: 20px;
+}
+.dates {
+  font-size: 11px;
+  font-weight: 300;
+  color: grey;
+  line-height: 20px;
+  float: right;
+  width: 326.67px;
+  padding-bottom: 20px;
+}
+.thumbnail {
+  width: 150px;
+  float: left;
 }
 footer {
   padding-top: 100px;
