@@ -83,6 +83,9 @@ p {
   color: #333333;
   line-height: 25px;
 }
+.italic {
+	font-style: italic;
+}
 .web-links {
   color: black;
   font-weight: 400;
