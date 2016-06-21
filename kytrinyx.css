@@ -116,6 +116,14 @@ p {
   width: 326.67px;
   padding-bottom: 20px;
 }
+.talk-dates {
+  font-size: 13px;
+  font-weight: 300;
+  color: grey;
+  text-align: center;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
 .thumbnail {
   width: 150px;
   float: left;
@@ -134,4 +142,7 @@ footer {
 }
 #exercism-picture {
   width: 490px;
+}
+.videos {
+  padding-bottom: 20px;
 }
