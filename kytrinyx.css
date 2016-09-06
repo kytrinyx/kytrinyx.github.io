@@ -91,7 +91,10 @@ p {
   font-weight: 400;
   text-decoration: underline;
 }
-#sign-up-button {
+li {
+  list-style-type: disc;
+}
+.sign-up-button {
   text-align: center;
 }
 .image-text {
@@ -126,6 +129,9 @@ p {
   text-align: center;
   line-height: 20px;
   padding-bottom: 20px;
+}
+.quotes {
+  font-style: italic; 
 }
 .thumbnail {
   width: 150px;
