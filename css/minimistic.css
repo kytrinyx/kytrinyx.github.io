@@ -103,23 +103,9 @@ li {
   color: #333333;
   line-height: 25px;
 }
-.video-text {
-  font-size: 13px;
-  font-weight: 300;
-  color: #333333;
-  line-height: 20px;
-  float: right;
-  width: 326.67px;
-  padding-bottom: 20px;
-}
-.dates {
-  font-size: 11px;
-  font-weight: 300;
-  color: grey;
-  line-height: 20px;
-  float: right;
-  width: 326.67px;
-  padding-bottom: 20px;
+
+.talk-heading {
+  padding-bottom:10px;
 }
 .talk-dates {
   font-size: 13px;
@@ -127,18 +113,66 @@ li {
   color: grey;
   text-align: center;
   line-height: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
-.quotes {
-  font-style: italic; 
+.talk-synopsis {
+  color:#333;
+  font-size:14px;
+  line-height:21px;
+  font-weight:300;
+}
+.talk-synopsis p {
+  padding-bottom:15px;
 }
 .thumbnail {
   width: 150px;
   float: left;
 }
-.talks {
-  display: table;
+.talk {
+  position:relative;
+  overflow:hidden;
+  text-decoration:none;
+  display:block;
+  padding-bottom:30px;
 }
+.talk+.talk {
+  padding-top:30px;
+}
+.talk+.talk:before {
+  position:absolute;
+  top:0;
+  left:15%;
+  right:15%;
+  height:1px;
+  background:#eee;
+  content: "";
+}
+.talk h3 {
+  color:#333;
+  font-size:17px;
+  line-height:21px;
+  margin-bottom:10px;
+  padding-bottom:0;
+}
+.talk h3,
+.talk p {
+  margin-left:170px;
+}
+.talk .video-text {
+  font-size: 14px;
+  font-weight: 300;
+  color: #333;
+  line-height: 20px;
+  padding-bottom:0;
+  margin-bottom: 10px;
+}
+.talk .dates {
+  font-size: 11px;
+  font-weight: 300;
+  color: #aaa;
+  padding-bottom:0;
+}
+
 footer {
   padding-top: 100px;
   padding-bottom: 100px;
